@@ -491,7 +491,7 @@ h3 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 12px;
+  padding: 0 6px;
 }
 .hero-flex {
   display: flex;
@@ -502,11 +502,19 @@ h3 {
   flex-wrap: nowrap;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 12px;
+  padding: 0 6px;
   background: none;
   border-radius: 0;
   box-shadow: none;
   margin-bottom: 40px;
+}
+.hero-content {
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 .hero-flex .hero-content {
   margin-left: 0;
@@ -580,7 +588,7 @@ h3 {
   align-items: center;
 }
 .logo.hero-logo {
-  margin-bottom: 8px !important;
+  margin-bottom: 4px !important;
 }
 @media (max-width: 1200px) {
   .container, .hero-flex, .contact-content {
