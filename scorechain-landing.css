@@ -240,13 +240,35 @@ h3 {
   color: var(--primary-blue);
   font-style: normal;
 }
+.testimonial-portrait {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.testimonial-text {
+  font-style: italic;
+  color: #6B7A90;
+  font-size: 1.08rem;
+  margin-bottom: 0;
+}
 .trust-elements {
   display: flex;
   flex-wrap: wrap;
-  gap: 24px;
-  margin-top: 24px;
-  font-size: 1rem;
-  color: var(--grey-text);
+  gap: 32px;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: center;
+}
+.trust-icon {
+  height: 22px;
+  width: 22px;
+  margin-right: 8px;
+  vertical-align: middle;
 }
 .demo-section {
   background: var(--white);
