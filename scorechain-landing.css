@@ -80,20 +80,23 @@ h3 {
   margin-bottom: 24px;
 }
 .cta-btn {
-  background: #1A56DB;
+  background: #0A2540;
   color: #fff;
   font-family: 'Montserrat', Arial, sans-serif;
   font-weight: 700;
   font-size: 1.1rem;
-  padding: 16px 32px;
+  padding: 0 32px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  margin-bottom: 18px;
+  margin-bottom: 0;
   transition: background 0.2s;
+  height: 56px;
+  display: flex;
+  align-items: center;
 }
 .cta-btn:hover {
-  background: #0A2540;
+  background: #1A56DB;
   color: #fff;
 }
 .trust-indicator {
@@ -289,11 +292,11 @@ h3 {
 .hero-cta-row {
   display: flex;
   gap: 16px;
-  align-items: center;
+  align-items: stretch;
   margin-bottom: 18px;
 }
 .hero-email {
-  padding: 14px 16px;
+  padding: 0 16px;
   border: 1px solid #E5E9F2;
   border-radius: 8px;
   font-size: 1.1rem;
@@ -301,11 +304,15 @@ h3 {
   flex: 1 1 220px;
   min-width: 180px;
   background: #fff;
-  color: #1A56DB;
+  color: #0A2540;
+  height: 56px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
 }
 .hero-email:focus {
-  outline: 2px solid #1A56DB;
-  border-color: #1A56DB;
+  outline: 2px solid #0A2540;
+  border-color: #0A2540;
 }
 @media (max-width: 900px) {
   .hero, .features, .use-cases, .testimonials, .demo-section {
