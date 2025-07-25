@@ -36,7 +36,7 @@
 
   <!-- Section 1: Problem/Pain Point (Text left, image right, light bg) -->
 <section class="alt-section light-bg">
-  <div class="section-content left-text">
+  <div class="container section-content left-text">
     <div class="section-text">
       <h2>Your Current Crypto Investigation Process is Broken</h2>
       <ul>
@@ -74,7 +74,7 @@
 
 <!-- Section 3: Use Cases (Image left, text right, white bg) -->
 <section class="alt-section white-bg">
-  <div class="section-content right-text">
+  <div class="container section-content right-text">
     <div class="section-image">
       <img src="https://placehold.co/400x260?text=Use+Case+Visual" alt="Use Case Visual" />
     </div>
@@ -91,7 +91,7 @@
 
 <!-- Section 4: Social Proof/Trust (compact, light bg) -->
 <section class="alt-section light-bg">
-  <div class="section-content center-text">
+  <div class="container section-content center-text">
     <h2>Compliance Teams Choose Scorechain for Critical Investigations</h2>
     <div class="testimonials">
       <div class="testimonial">"Before Scorechain, our crypto investigations took days. Now my team gets answers in minutes, and regulators love our detailed reports."</div>
@@ -108,7 +108,7 @@
 
 <!-- Section 5: Contact/CTA (two-column, soft bg) -->
 <section class="alt-section contact-bg">
-  <div class="contact-content">
+  <div class="container contact-content">
     <div class="contact-left">
       <h2>Talk with one of our experts</h2>
       <ul>
@@ -119,76 +119,101 @@
       </ul>
     </div>
     <div class="contact-right">
-      <form class="demo-form">
-        <div class="form-row">
-          <div class="form-group">
-            <label for="firstName">First Name *</label>
-            <input type="text" id="firstName" name="firstName" required>
+      <div class="form-card">
+        <form class="demo-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="firstName">First Name *</label>
+              <input type="text" id="firstName" name="firstName" required>
+            </div>
+            <div class="form-group">
+              <label for="lastName">Last Name *</label>
+              <input type="text" id="lastName" name="lastName" required>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="lastName">Last Name *</label>
-            <input type="text" id="lastName" name="lastName" required>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="company">Company Name *</label>
+              <input type="text" id="company" name="company" required>
+            </div>
+            <div class="form-group">
+              <label for="industry">Industry *</label>
+              <input type="text" id="industry" name="industry" required>
+            </div>
           </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="company">Company Name *</label>
-            <input type="text" id="company" name="company" required>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">Work Email *</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone *</label>
+              <input type="text" id="phone" name="phone" required>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="industry">Industry *</label>
-            <input type="text" id="industry" name="industry" required>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="country">Country *</label>
+              <select id="country" name="country" required>
+                <option value="">Select one...</option>
+                <option value="France">France</option>
+                <option value="Luxembourg">Luxembourg</option>
+                <option value="UK">UK</option>
+                <option value="USA">USA</option>
+                <!-- Add more countries as needed -->
+              </select>
+            </div>
           </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="email">Work Email *</label>
-            <input type="email" id="email" name="email" required>
+          <div class="form-row">
+            <label for="interest">Interest *</label>
+            <div class="interest-buttons">
+              <button type="button">Wallet and Transaction Screening</button>
+              <button type="button">Predictive Alerts</button>
+              <button type="button">Exploration Tool</button>
+              <button type="button">KYA/KYT Reports</button>
+              <button type="button">VASP Risk Assessment</button>
+              <button type="button">API Integration</button>
+            </div>
           </div>
-          <div class="form-group">
-            <label for="phone">Phone *</label>
-            <input type="text" id="phone" name="phone" required>
+          <div class="form-row">
+            <label for="extra">Extra Info</label>
+            <textarea id="extra" name="extra" placeholder="Write us any relevant extra information"></textarea>
           </div>
-        </div>
-        <div class="form-row">
-          <div class="form-group">
-            <label for="country">Country *</label>
-            <select id="country" name="country" required>
-              <option value="">Select one...</option>
-              <option value="France">France</option>
-              <option value="Luxembourg">Luxembourg</option>
-              <option value="UK">UK</option>
-              <option value="USA">USA</option>
-              <!-- Add more countries as needed -->
-            </select>
+          <div class="form-row">
+            <button class="cta-btn" type="submit">Request a demo</button>
           </div>
-        </div>
-        <div class="form-row">
-          <label for="interest">Interest *</label>
-          <div class="interest-buttons">
-            <button type="button">Wallet and Transaction Screening</button>
-            <button type="button">Predictive Alerts</button>
-            <button type="button">Exploration Tool</button>
-            <button type="button">KYA/KYT Reports</button>
-            <button type="button">VASP Risk Assessment</button>
-            <button type="button">API Integration</button>
-          </div>
-        </div>
-        <div class="form-row">
-          <label for="extra">Extra Info</label>
-          <textarea id="extra" name="extra" placeholder="Write us any relevant extra information"></textarea>
-        </div>
-        <div class="form-row">
-          <button class="cta-btn" type="submit">Request a demo</button>
-        </div>
-      </form>
+        </form>
+      </div>
     </div>
   </div>
-  <div class="customer-logos-row">
+  <div class="container customer-logos-row">
     <img src="https://placehold.co/100x36?text=paybis" alt="paybis" />
     <img src="https://placehold.co/100x36?text=Thunes" alt="Thunes" />
     <img src="https://placehold.co/100x36?text=NOTA+BENE" alt="NOTA BENE" />
     <!-- Add more logos as needed -->
+  </div>
+</section>
+
+<!-- Customer Logos Scrolling Section -->
+<section class="alt-section logos-bg">
+  <div class="container logos-section">
+    <h3 class="logos-heading">350+ COMPLIANCE & DIGITAL ASSET TEAMS TRUST US</h3>
+    <div class="logos-scroll">
+      <div class="logos-row">
+        <img src="https://placehold.co/120x40?text=NOTA+BENE" alt="NOTA BENE" />
+        <img src="https://placehold.co/120x40?text=TAURUS" alt="TAURUS" />
+        <img src="https://placehold.co/120x40?text=HAWK" alt="HAWK" />
+        <img src="https://placehold.co/120x40?text=CACEIS" alt="CACEIS" />
+        <img src="https://placehold.co/120x40?text=Regtank" alt="Regtank" />
+        <img src="https://placehold.co/120x40?text=BANQUE" alt="BANQUE" />
+        <img src="https://placehold.co/120x40?text=changelly" alt="changelly" />
+        <img src="https://placehold.co/120x40?text=OSL" alt="OSL" />
+        <img src="https://placehold.co/120x40?text=Caisse+des+Depots" alt="Caisse des Depots" />
+        <img src="https://placehold.co/120x40?text=paybis" alt="paybis" />
+        <img src="https://placehold.co/120x40?text=Thunes" alt="Thunes" />
+        <img src="https://placehold.co/120x40?text=NOTA+BENE" alt="NOTA BENE" />
+      </div>
+    </div>
   </div>
 </section>
 
