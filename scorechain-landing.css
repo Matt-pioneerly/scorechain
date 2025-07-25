@@ -316,9 +316,10 @@ h3 {
 }
 .hero-cta-row {
   display: flex;
-  gap: 20px;
+  gap: 12px;
   align-items: center;
   margin-bottom: 18px;
+  flex-wrap: nowrap;
 }
 .hero-email {
   padding: 0 16px;
@@ -327,7 +328,8 @@ h3 {
   font-size: 1.2rem;
   font-family: 'Inter', Arial, sans-serif;
   flex: 2 1 320px;
-  min-width: 220px;
+  min-width: 180px;
+  max-width: 340px;
   background: #fff;
   color: #0A2540;
   height: 64px;
@@ -346,7 +348,8 @@ h3 {
   font-weight: 700;
   font-size: 1rem;
   padding: 0 20px;
-  min-width: 180px;
+  min-width: 140px;
+  max-width: 260px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -459,8 +462,9 @@ h3 {
   padding: 48px 96px;
 }
 .contact-left {
-  flex: 1 1 420px;
-  min-width: 320px;
+  flex: 0 1 340px;
+  max-width: 340px;
+  min-width: 220px;
   padding-right: 96px;
   padding-top: 48px;
   padding-bottom: 48px;
