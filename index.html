@@ -266,5 +266,30 @@
   </div>
 </footer>
 
+<!-- Exit Intent Pop-up Modal -->
+<div id="exitIntentModal" class="exit-modal" style="display: none;">
+  <div class="exit-modal-content">
+    <button class="exit-modal-close" onclick="document.getElementById('exitIntentModal').style.display='none'">&times;</button>
+    <h3>Want to learn more, but not quite ready for a call?</h3>
+    <p>Download our Flux Analysis User Guide – with a whole section for AML Managers.</p>
+    <form class="exit-modal-form" onsubmit="event.preventDefault(); /* handle submission here */">
+      <input type="email" placeholder="Your work email" required class="exit-modal-email" />
+      <button type="submit" class="exit-modal-cta">Get Your Guide</button>
+    </form>
+  </div>
+</div>
+<script>
+(function() {
+  let shown = false;
+  function showExitModal(e) {
+    if (shown) return;
+    if (e.clientY < 50 && (e.clientX < window.innerWidth * 0.2 || e.clientX > window.innerWidth * 0.8)) {
+      document.getElementById('exitIntentModal').style.display = 'flex';
+      shown = true;
+    }
+  }
+  document.addEventListener('mouseout', showExitModal);
+})();
+</script>
 </body>
 </html> 
