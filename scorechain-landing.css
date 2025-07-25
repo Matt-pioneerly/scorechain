@@ -497,14 +497,13 @@ h3 {
   box-shadow: none;
   margin-bottom: 40px;
 }
-.hero-content, .hero-image {
-  flex: 1 1 50%;
-  max-width: 50%;
-  min-width: 0;
-  vertical-align: middle;
-}
 .hero-content {
+  padding-left: 12px;
+  padding-right: 0;
   margin-left: 0;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
 }
 .hero-flex .hero-content {
   margin-left: 40px;
