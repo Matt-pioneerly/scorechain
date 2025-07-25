@@ -316,21 +316,21 @@ h3 {
 }
 .hero-cta-row {
   display: flex;
-  gap: 16px;
-  align-items: stretch;
+  gap: 20px;
+  align-items: center;
   margin-bottom: 18px;
 }
 .hero-email {
   padding: 0 16px;
   border: 1px solid #E5E9F2;
   border-radius: 8px;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
   font-family: 'Inter', Arial, sans-serif;
-  flex: 1 1 220px;
-  min-width: 180px;
+  flex: 2 1 320px;
+  min-width: 220px;
   background: #fff;
   color: #0A2540;
-  height: 56px;
+  height: 64px;
   box-sizing: border-box;
   display: flex;
   align-items: center;
@@ -338,6 +338,30 @@ h3 {
 .hero-email:focus {
   outline: 2px solid #0A2540;
   border-color: #0A2540;
+}
+.hero-cta-row .cta-btn {
+  background: #0A2540;
+  color: #fff;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  padding: 0 20px;
+  min-width: 180px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 0;
+  transition: background 0.2s;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1 1 160px;
+  text-align: center;
+}
+.hero-cta-row .cta-btn:hover {
+  background: #00B2E3;
+  color: #fff;
 }
 .alt-section {
   width: 100%;
@@ -442,8 +466,8 @@ h3 {
   padding-bottom: 48px;
 }
 .contact-right {
-  flex: 1 1 350px;
-  min-width: 320px;
+  flex: 1 1 650px;
+  min-width: 400px;
 }
 .form-row {
   display: flex;
@@ -534,7 +558,7 @@ h3 {
   box-shadow: 0 4px 32px rgba(26,86,219,0.07);
   padding: 40px 32px;
   width: 100%;
-  max-width: 500px;
+  max-width: 650px;
   box-sizing: border-box;
 }
 .logos-bg {
@@ -633,7 +657,7 @@ h3 {
   box-shadow: 0 4px 32px rgba(26,86,219,0.07);
   padding: 40px 32px;
   width: 100%;
-  max-width: 500px;
+  max-width: 650px;
 }
 .logos-bg {
   background: #F5F7FA;
