@@ -462,8 +462,8 @@ h3 {
   padding: 48px 96px;
 }
 .contact-left {
-  flex: 0 1 340px;
-  max-width: 340px;
+  flex: 0 1 400px;
+  max-width: 400px;
   min-width: 220px;
   padding-right: 96px;
   padding-top: 48px;
@@ -859,4 +859,10 @@ h3 {
     max-width: 100%;
     flex-basis: 100%;
   }
+} 
+.form-card .cta-btn {
+  text-align: center !important;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
 } 
