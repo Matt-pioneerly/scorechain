@@ -1021,10 +1021,14 @@ h3 {
     min-width: 0;
     box-sizing: border-box;
     font-size: 1.1rem;
+    height: 44px; /* Reduce height for mobile */
+    padding-top: 0;
+    padding-bottom: 0;
   }
   .cta-btn {
-    padding: 14px 0;
+    padding: 0 0;
     font-size: 1.1rem;
+    height: 44px; /* Reduce height for mobile */
   }
   .cta-btn::after {
     content: 'Book Demo';
