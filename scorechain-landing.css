@@ -462,16 +462,16 @@ h3 {
   padding: 48px 96px;
 }
 .contact-left {
-  flex: 0 1 320px;
-  max-width: 320px;
+  flex: 0 1 380px;
+  max-width: 380px;
   min-width: 180px;
   padding-right: 64px;
   padding-top: 48px;
   padding-bottom: 48px;
 }
 .contact-right {
-  flex: 1 1 800px;
-  min-width: 480px;
+  flex: 1 1 600px;
+  min-width: 340px;
 }
 .form-row {
   display: flex;
