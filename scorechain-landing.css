@@ -986,3 +986,55 @@ h3 {
     padding: 18px 6px 18px 6px;
   }
 } 
+@media (max-width: 600px) {
+  .hero-flex {
+    flex-direction: column;
+    gap: 18px;
+    padding: 0 4px;
+  }
+  .hero-content, .hero-image {
+    max-width: 100%;
+    flex-basis: 100%;
+    padding: 0 2px;
+    margin: 0;
+  }
+  .hero-content {
+    padding: 0 2px;
+    margin: 0;
+  }
+  .hero-image img {
+    max-width: 98vw;
+    width: 100%;
+    height: auto;
+  }
+  .subheadline, .hero-content, .hero-content h1, .hero-content .subheadline {
+    word-break: break-word;
+    overflow-wrap: break-word;
+  }
+  .hero-cta-row {
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+  }
+  .hero-email, .cta-btn {
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
+    font-size: 1.1rem;
+  }
+  .cta-btn {
+    padding: 14px 0;
+    font-size: 1.1rem;
+  }
+  .cta-btn::after {
+    content: 'Book Demo';
+    display: inline;
+  }
+  .cta-btn {
+    color: transparent;
+    position: relative;
+  }
+  .cta-btn span {
+    display: none;
+  }
+} 
