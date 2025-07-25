@@ -113,6 +113,8 @@ h3 {
   height: 56px;
   display: flex;
   align-items: center;
+  text-align: center;
+  width: 100%;
 }
 .cta-btn:hover {
   background: #00B2E3;
@@ -286,6 +288,8 @@ h3 {
   background: #fff;
   color: #18445C;
   resize: vertical;
+  min-width: 0;
+  box-sizing: border-box;
 }
 .demo-form textarea {
   min-height: 60px;
@@ -445,6 +449,8 @@ h3 {
   display: flex;
   gap: 24px;
   margin-bottom: 16px;
+  flex-wrap: wrap;
+  min-width: 0;
 }
 .form-group {
   flex: 1 1 0;
@@ -529,6 +535,7 @@ h3 {
   padding: 40px 32px;
   width: 100%;
   max-width: 500px;
+  box-sizing: border-box;
 }
 .logos-bg {
   background: #F5F7FA;
@@ -694,6 +701,47 @@ h3 {
 }
 .logo.hero-logo {
   margin-bottom: 4px !important;
+}
+.contact-heading {
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin-bottom: 32px;
+}
+.form-card-padded {
+  padding: 40px 32px !important;
+}
+.contact-left ul {
+  margin-bottom: 0;
+}
+.contact-left ul li {
+  margin-bottom: 18px;
+}
+.cta-btn {
+  text-align: center;
+  width: 100%;
+}
+.customer-logos-small {
+  margin-top: 16px;
+  gap: 12px;
+}
+.customer-logos-small img {
+  height: 28px;
+}
+.footer-min {
+  background: #18445C;
+  color: #fff;
+  text-align: center;
+  padding: 24px 0;
+}
+.footer-min-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+.footer-logo {
+  height: 32px;
+  margin-bottom: 4px;
 }
 @media (max-width: 1200px) {
   .container, .hero-flex, .contact-content {
