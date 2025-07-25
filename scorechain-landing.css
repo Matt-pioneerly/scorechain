@@ -790,7 +790,8 @@ h3 {
   gap: 8px;
 }
 .footer-logo {
-  height: 32px;
+  height: 48px;
+  max-width: 180px;
   margin-bottom: 4px;
 }
 @media (max-width: 1200px) {
