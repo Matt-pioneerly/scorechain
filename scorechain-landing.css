@@ -965,7 +965,7 @@ h3 {
   box-sizing: border-box;
 }
 .exit-modal-cta {
-  background: #00B2E3;
+  background: #18445C;
   color: #fff;
   font-family: 'Montserrat', Arial, sans-serif;
   font-weight: 700;
@@ -978,7 +978,7 @@ h3 {
   transition: background 0.2s;
 }
 .exit-modal-cta:hover {
-  background: #18445C;
+  background: #00B2E3;
 }
 @media (max-width: 600px) {
   .exit-modal-content {
