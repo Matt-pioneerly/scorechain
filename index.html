@@ -119,34 +119,76 @@
       </ul>
     </div>
     <div class="contact-right">
-      <!-- Reuse your demo form here -->
       <form class="demo-form">
-        <label for="firstName">First Name</label>
-        <input type="text" id="firstName" name="firstName" required>
-        <label for="lastName">Last Name</label>
-        <input type="text" id="lastName" name="lastName" required>
-        <label for="email">Work Email</label>
-        <input type="email" id="email" name="email" required>
-        <label for="company">Company Name</label>
-        <input type="text" id="company" name="company" required>
-        <label for="role">Role/Title</label>
-        <input type="text" id="role" name="role">
-        <label for="companySize">Company Size</label>
-        <select id="companySize" name="companySize">
-          <option value="">Select...</option>
-          <option value="1-10">1-10</option>
-          <option value="11-50">11-50</option>
-          <option value="51-200">51-200</option>
-          <option value="201-500">201-500</option>
-          <option value="501-1000">501-1000</option>
-          <option value="1000+">1000+</option>
-        </select>
-        <label for="challenge">Biggest Crypto Compliance Challenge</label>
-        <textarea id="challenge" name="challenge" placeholder="Describe your main challenge..."></textarea>
-        <button class="cta-btn" type="submit">Book My Demo Now</button>
-        <a href="#" class="secondary-cta">Or try our Free AML Check</a>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name *</label>
+            <input type="text" id="firstName" name="firstName" required>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name *</label>
+            <input type="text" id="lastName" name="lastName" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="company">Company Name *</label>
+            <input type="text" id="company" name="company" required>
+          </div>
+          <div class="form-group">
+            <label for="industry">Industry *</label>
+            <input type="text" id="industry" name="industry" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="email">Work Email *</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phone">Phone *</label>
+            <input type="text" id="phone" name="phone" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="country">Country *</label>
+            <select id="country" name="country" required>
+              <option value="">Select one...</option>
+              <option value="France">France</option>
+              <option value="Luxembourg">Luxembourg</option>
+              <option value="UK">UK</option>
+              <option value="USA">USA</option>
+              <!-- Add more countries as needed -->
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="interest">Interest *</label>
+          <div class="interest-buttons">
+            <button type="button">Wallet and Transaction Screening</button>
+            <button type="button">Predictive Alerts</button>
+            <button type="button">Exploration Tool</button>
+            <button type="button">KYA/KYT Reports</button>
+            <button type="button">VASP Risk Assessment</button>
+            <button type="button">API Integration</button>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="extra">Extra Info</label>
+          <textarea id="extra" name="extra" placeholder="Write us any relevant extra information"></textarea>
+        </div>
+        <div class="form-row">
+          <button class="cta-btn" type="submit">Request a demo</button>
+        </div>
       </form>
     </div>
+  </div>
+  <div class="customer-logos-row">
+    <img src="https://placehold.co/100x36?text=paybis" alt="paybis" />
+    <img src="https://placehold.co/100x36?text=Thunes" alt="Thunes" />
+    <img src="https://placehold.co/100x36?text=NOTA+BENE" alt="NOTA BENE" />
+    <!-- Add more logos as needed -->
   </div>
 </section>
 
