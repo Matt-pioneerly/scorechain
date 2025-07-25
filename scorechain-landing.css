@@ -590,6 +590,18 @@ h3 {
 .logo.hero-logo {
   margin-bottom: 4px !important;
 }
+.hero.white-bg .container,
+.hero.white-bg .hero-flex {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.hero-content {
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+.logo.hero-logo {
+  margin-bottom: 4px !important;
+}
 @media (max-width: 1200px) {
   .container, .hero-flex, .contact-content {
     padding: 0 32px !important;
