@@ -412,7 +412,7 @@ h3 {
 }
 .contact-content {
   display: flex;
-  gap: 48px;
+  gap: 64px;
   max-width: 1200px;
   margin: 0 auto;
   flex-wrap: wrap;
@@ -422,6 +422,7 @@ h3 {
 .contact-left {
   flex: 1 1 420px;
   min-width: 320px;
+  padding-right: 48px;
 }
 .contact-right {
   flex: 1 1 350px;
@@ -485,6 +486,15 @@ h3 {
   justify-content: space-between;
   gap: 48px;
   flex-wrap: wrap;
+  background: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.hero-flex .hero-content {
+  margin-left: 40px;
+}
+.hero-flex .hero-image {
+  margin-right: 40px;
 }
 .form-card {
   background: #fff;
@@ -585,5 +595,16 @@ h3 {
   .logos-heading {
     font-size: 1rem;
     margin-bottom: 20px;
+  }
+  .hero-flex .hero-content,
+  .hero-flex .hero-image {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .contact-left {
+    padding-right: 0;
+  }
+  .contact-content {
+    gap: 24px;
   }
 } 
