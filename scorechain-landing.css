@@ -59,9 +59,9 @@ h1, h2, h3 {
 }
 h1 {
   font-family: 'Montserrat', Arial, sans-serif;
-  font-weight: 900;
+  font-weight: 700;
   color: #18445C;
-  font-size: 4rem;
+  font-size: 3.2rem;
   line-height: 1.05;
   letter-spacing: -0.04em;
   margin-bottom: 24px;
@@ -480,7 +480,7 @@ h3 {
 .container {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 96px;
+  padding: 0 48px;
 }
 .hero-flex {
   display: flex;
@@ -491,10 +491,11 @@ h3 {
   flex-wrap: nowrap;
   max-width: 1200px;
   margin: 0 auto;
-  padding: 0 96px;
+  padding: 0 48px;
   background: none;
   border-radius: 0;
   box-shadow: none;
+  margin-bottom: 40px;
 }
 .hero-content, .hero-image {
   flex: 1 1 50%;
@@ -620,7 +621,7 @@ h3 {
     flex-direction: column !important;
     gap: 24px !important;
     align-items: stretch !important;
-    padding: 0 12px !important;
+    padding: 0 8px !important;
   }
   h1 {
     font-size: 2.2rem;
