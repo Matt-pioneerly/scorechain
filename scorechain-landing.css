@@ -979,12 +979,6 @@ h3 {
   background: #00B2E3;
 }
 @media (max-width: 600px) {
-  .exit-modal-content {
-    max-width: 98vw;
-    padding: 18px 6px 18px 6px;
-  }
-} 
-@media (max-width: 600px) {
   .hero-flex {
     flex-direction: column;
     gap: 18px;
@@ -1032,13 +1026,13 @@ h3 {
     max-width: 100% !important;
     display: block !important;
   }
-  .cta-btn::after {
-    content: 'Book Demo';
-    display: inline;
-  }
   .cta-btn {
     color: transparent;
     position: relative;
+  }
+  .cta-btn::after {
+    content: 'Book Demo';
+    display: inline;
   }
   .cta-btn span {
     display: none;
@@ -1051,5 +1045,10 @@ h3 {
     text-align: center !important;
     flex-direction: column !important;
     align-items: center !important;
+  }
+  .customer-logos-small {
+    justify-content: center !important;
+    display: flex !important;
+    margin: 16px auto !important;
   }
 } 
