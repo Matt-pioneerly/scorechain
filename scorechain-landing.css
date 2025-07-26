@@ -1026,16 +1026,12 @@ h3 {
     max-width: 100% !important;
     display: block !important;
   }
-  .cta-btn {
-    color: transparent;
-    position: relative;
-  }
-  .cta-btn::after {
-    content: 'Book Demo';
-    display: inline;
-  }
-  .cta-btn span {
-    display: none;
+  .logo.hero-logo {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    float: none !important;
+    text-align: center !important;
   }
   h1, h2, h3 {
     text-align: center !important;
