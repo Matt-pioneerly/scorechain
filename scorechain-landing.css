@@ -1047,4 +1047,11 @@ h3 {
     display: flex !important;
     margin: 16px auto !important;
   }
+  /* Add buffer for CTA button on mobile */
+  .cta-btn {
+    margin-left: 16px !important;
+    margin-right: 16px !important;
+    width: calc(100% - 32px) !important;
+    max-width: calc(100% - 32px) !important;
+  }
 } 
